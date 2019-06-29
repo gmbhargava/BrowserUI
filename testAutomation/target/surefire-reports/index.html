@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-com.hsbc.digital.testauto.scripts.communication.LoginTest">
+              <span class="suite-name border-failed">com.hsbc.digital.testauto.scripts.communication.LoginTest</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-com.hsbc.digital.testauto.scripts.communication.LoginTest">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-com.hsbc.digital.testauto.scripts.communication.LoginTest">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-com.hsbc.digital.testauto.scripts.communication.LoginTest">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-com.hsbc.digital.testauto.scripts.communication.LoginTest">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-com.hsbc.digital.testauto.scripts.communication.LoginTest">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-com.hsbc.digital.testauto.scripts.communication.LoginTest">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-com.hsbc.digital.testauto.scripts.communication.LoginTest">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method, 1 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-com.hsbc.digital.testauto.scripts.communication.LoginTest" class="hide-methods failed suite-com.hsbc.digital.testauto.scripts.communication.LoginTest"> (hide)</a> <!-- hide-methods failed suite-com.hsbc.digital.testauto.scripts.communication.LoginTest -->
+                      <a href="#" panel-name="suite-com.hsbc.digital.testauto.scripts.communication.LoginTest" class="show-methods failed suite-com.hsbc.digital.testauto.scripts.communication.LoginTest"> (show)</a> <!-- show-methods failed suite-com.hsbc.digital.testauto.scripts.communication.LoginTest -->
+                    </span>
+                    <div class="method-list-content failed suite-com.hsbc.digital.testauto.scripts.communication.LoginTest">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.hsbc.digital.testauto.scripts.communication.LoginTest" title="com.hsbc.digital.testauto.scripts.communication.LoginTest" hash-for-method="sentmessage">sentmessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-com.hsbc.digital.testauto.scripts.communication.LoginTest -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-com.hsbc.digital.testauto.scripts.communication.LoginTest" class="panel com.hsbc.digital.testauto.scripts.communication.LoginTest">
+          <div class="suite-com.hsbc.digital.testauto.scripts.communication.LoginTest-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.hsbc.digital.testauto.scripts.communication.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sentmessage">
+                  </a> <!-- sentmessage -->
+                  <span class="method-name">sentmessage</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy5.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:302)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:41)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:288)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:285)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:687)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:680)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+	at com.hsbc.digital.testauto.pageObject.GenericActions.clickOnElement(GenericActions.java:36)
+	at com.hsbc.digital.testauto.pageObject.LoginGmail.clickOnCompose(LoginGmail.java:91)
+	at com.hsbc.digital.testauto.pageObject.LoginGmail.composemail(LoginGmail.java:109)
+	at com.hsbc.digital.testauto.scripts.communication.LoginTest.sentmessage(LoginTest.java:56)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-com.hsbc.digital.testauto.scripts.communication.LoginTest-class-failed -->
+        </div> <!-- panel com.hsbc.digital.testauto.scripts.communication.LoginTest -->
+        <div panel-name="test-xml-com.hsbc.digital.testauto.scripts.communication.LoginTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;com.hsbc.digital.testauto.scripts.communication.LoginTest&quot;&gt;
+  &lt;test name=&quot;Command line test&quot; preserve-order=&quot;false&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.hsbc.digital.testauto.scripts.communication.LoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test --&gt;
+&lt;/suite&gt; &lt;!-- com.hsbc.digital.testauto.scripts.communication.LoginTest --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-com.hsbc.digital.testauto.scripts.communication.LoginTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for com.hsbc.digital.testauto.scripts.communication.LoginTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Command line test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-com.hsbc.digital.testauto.scripts.communication.LoginTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for com.hsbc.digital.testauto.scripts.communication.LoginTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-com.hsbc.digital.testauto.scripts.communication.LoginTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for com.hsbc.digital.testauto.scripts.communication.LoginTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_com.hsbc.digital.testauto.scripts.communication.LoginTest');
+function tableData_com.hsbc.digital.testauto.scripts.communication.LoginTest() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'sentmessage')
+data.setCell(0, 2, 'com.hsbc.digital.testauto.scripts.communication.LoginTest')
+data.setCell(0, 3, 3250);
+window.suiteTableData['com.hsbc.digital.testauto.scripts.communication.LoginTest']= { tableData: data, tableDiv: 'times-div-com.hsbc.digital.testauto.scripts.communication.LoginTest'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
+              <div id="times-div-com.hsbc.digital.testauto.scripts.communication.LoginTest">
+              </div> <!-- times-div-com.hsbc.digital.testauto.scripts.communication.LoginTest -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-com.hsbc.digital.testauto.scripts.communication.LoginTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for com.hsbc.digital.testauto.scripts.communication.LoginTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-com.hsbc.digital.testauto.scripts.communication.LoginTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-com.hsbc.digital.testauto.scripts.communication.LoginTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.hsbc.digital.testauto.scripts.communication.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">testlogin(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">sentmessage</span>
+                <span class="method-start">35641 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

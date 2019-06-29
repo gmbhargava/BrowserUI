@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" thread-count="2" parallel="true">
+	<listeners>
+		<listener class-name="com.hsbc.digital.testauto.listners"></listener>
+		<listener class-name="com.hsbc.digital.testauto.listners"></listener>
+	</listeners>
+  <test name="Test Automation Suite">
+  	<groups>
+  		<define name="all">
+  			<include name =""/>
+  			<include name=" "/>
+  		</define>
+  		<run>
+  			<include name=""/>
+  		</run>
+  	</groups>
+    <classes>
+      <class name="com.hsbc.digital.testauto.scripts.communication"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

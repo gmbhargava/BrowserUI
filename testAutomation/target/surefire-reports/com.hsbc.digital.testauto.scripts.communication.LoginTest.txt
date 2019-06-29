@@ -1,0 +1,23 @@
+-------------------------------------------------------------------------------
+Test set: com.hsbc.digital.testauto.scripts.communication.LoginTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 39.406 sec <<< FAILURE!
+sentmessage(com.hsbc.digital.testauto.scripts.communication.LoginTest)  Time elapsed: 3.263 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy5.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:302)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:41)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:288)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:285)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:687)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:680)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+	at com.hsbc.digital.testauto.pageObject.GenericActions.clickOnElement(GenericActions.java:36)
+	at com.hsbc.digital.testauto.pageObject.LoginGmail.clickOnCompose(LoginGmail.java:91)
+	at com.hsbc.digital.testauto.pageObject.LoginGmail.composemail(LoginGmail.java:109)
+	at com.hsbc.digital.testauto.scripts.communication.LoginTest.sentmessage(LoginTest.java:56)
+

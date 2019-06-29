@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TESTCLASS NAME="com.hsbc.digital.testauto.scripts.communication.UpdatePersonalInformation">
+	<METHODS>
+		<METHOD EXE-TYPE="functional,reggression" NAME="addressDetailsErrorMessage">
+			<ENTITY_PROFILES>
+				<ENTITY_PROFILE ENV="prod" PROFILE="Autotest9"/>
+				<ENTITY_PROFILE ENV="pilot" PROFILE="Autotest9"/>
+			</ENTITY_PROFILES>
+		</METHOD>
+		</METHODS>
+</TESTCLASS>
